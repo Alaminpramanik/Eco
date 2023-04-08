@@ -61,25 +61,25 @@ function Header() {
                             <div>
                                 <Link>
                                     <img src={addcart} />
-                                    <p>Add Cart</p>
+                                    <p className='text-black'>Add Cart</p>
                                 </Link>
                             </div>
                             <div>
                                 <Link>
                                     <img className='cash' src={cash} />
-                                    <p>Cash</p>
+                                    <p className='text-black'>Cash</p>
                                 </Link> 
                             </div>
                             <div>
                                 <Link>
                                     <img className='dashboard' src={dashboard} />
-                                    <p>Dashboard</p>
+                                    <p className='text-black'>Dashboard</p>
                                 </Link> 
                             </div>
                             <div>
                                 <Link>
                                     <img className='logout' src={logout} />
-                                    <p>Logout</p>
+                                    <p className='text-black'>Logout</p>
                                 </Link>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ function Header() {
         <header className='header-body py-3'>
             <div className='container-xxl'>
                 <div className='row'>
-                    <div className='col-2 product-list'>
+                    <div className='col-2 product-list border-end'>
                         <ul className='list'>
                             <li className='list-group-item'>
                                 Vegetable and Fruits

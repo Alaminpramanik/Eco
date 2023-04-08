@@ -66,6 +66,8 @@ a{
 }
 .product-list{
   margin-left: -32px;
+  mix-blend-mode: normal;
+ 
 }
 .header-bottom{
   background-color: white;
