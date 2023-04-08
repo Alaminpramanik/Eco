@@ -87,6 +87,66 @@ function Header() {
                 </div>
             </div>
         </header>
+        <header className='header-bottom py-3'>
+            <div className='container-xxl'>
+                <div className='row'>
+                    <div className='col-2'>
+                        <div className='menu-bottom d-flex laign-items-center '>
+                            <div>
+                                <p>Categories</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div className='col-10'>
+                        <div className='menu-bottom d-flex laign-items-center '>
+                            <div className='menu-links'>
+                                <div className='d-flex align-items-center gap-100'>
+                                    <NavLink className="text-black" to="/">Home</NavLink>
+                                    <NavLink className="text-black" to="/">Blog</NavLink>
+                                    <NavLink className="text-black" to="/">Agency</NavLink>
+                                    <NavLink className="text-black" to="/">Training</NavLink>
+                                    <NavLink className="text-black" to="/">About Us</NavLink>
+                                    <NavLink className="text-black" to="/">Contact Us</NavLink>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <header className='header-body py-3'>
+            <div className='container-xxl'>
+                <div className='row'>
+                    <div className='col-2 product-list'>
+                        <ul className='list'>
+                            <li className='list-group-item'>
+                                Vegetable and Fruits
+                            </li>
+                            <li className='list-group-item'>
+                                Meat and Fish
+                            </li>
+                            <li className='list-group-item'>
+                                Cooking
+                            </li>
+                            <li className='list-group-item'>
+                                Dairy and Eggs
+                            </li>
+                            <li className='list-group-item'>
+                                Bevarage
+                            </li>
+                            <li className='list-group-item'>
+                                Choclate
+                            </li>
+                        </ul>
+                    </div>
+                    <div className='col-10'>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
         </>
     );
 }
