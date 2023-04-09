@@ -95,3 +95,10 @@ a{
   padding: 7px;
   box-sizing: border-box;
 }
+.product-title{
+  text-align: center;
+}
+.add-butoon{
+  background-color: #1c682d;
+  border-radius: 12px;
+}
