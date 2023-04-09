@@ -99,6 +99,15 @@ a{
   text-align: center;
 }
 .add-butoon{
+  width: 100%;
+  margin-left: 7px;
+  text-align: center;
   background-color: #1c682d;
   border-radius: 12px;
+}
+.customer-review{
+  margin-top: 15px;
+  text-align: center;
+  /* background-color: #67856e; */
+
 }

@@ -10,6 +10,12 @@ import banner from "../images/banner.png"
 import chili from "../images/chili.png"
 import puishak from "../images/puishak.png"
 import onion from "../images/onion.jpg"
+import potato from "../images/potato.webp"
+import fishbeef from "../images/fishbeef.jpg"
+import Vegetable from "../images/vegetable.jpg"
+import drink from "../images/drink.jpeg"
+import Choclate from "../images/choclates.jpg"
+
 
 function Header() {
     return (
@@ -160,81 +166,78 @@ function Header() {
                                 <img className='banner' src={banner} />
                             </div>
                         </div>
+
+                        <div className='row '>
+                            <div className='customer-review'>
+                                <div className='col-12'>
+                                    <div className='row'>
+                                        <div className='col-12 '>
+                                            <h2 className='all-text'>Ours Product</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div className='row '>
                             <div className='col-3'>
                                 <div>
-                                    <img className='product-items' src={chili} />
+                                    <img className='product-items' src={fishbeef} />
+                                </div>
+                                
+                                <div className='row'>
+                                    <div className='col-12  '>
+                                        <button className=' add-butoon text-white'> See List</button>
+                                    </div>
                                 </div>
                                 
                             </div>
-                            <div className='col-3'>
-                                <div className='row'>
-                                        <div className='col-12'>
-                                            <img className='product-items' src={puishak} />
-                                        </div>
-                                </div>
-                                <div className='row'>
-                                    <div className='col-12 product-title'>
-                                        <p className='all-text'>Deshi Puishak (3 pices)</p>
-                                    </div>
-                                </div>
 
-                                <div className='row'>
-                                    <div className='col-12 product-title'>
-                                        <p className='all-text'> 45tk</p>
-                                    </div>
+                            <div className='col-3'>
+                                <div>
+                                    <img className='product-items' src={Vegetable} />
                                 </div>
+                                
                                 <div className='row'>
-                                    <div className='col-12 product-title'>
-                                        <button className='add-butoon text-white'> add</button>
+                                    <div className='col-12  '>
+                                        <button className=' add-butoon text-white'> See List</button>
                                     </div>
                                 </div>
                                 
                             </div>
-                            <div className='col-3'>
+                            
+                            <div className='col-3 '>
                                 <div className='row'>
                                     <div className='col-12'>
-                                        <img className='product-items' src={onion} />
+                                        <img className='product-items' src={drink} />
                                     </div>
                                 </div>
                                 <div className='row'>
-                                    <div className='col-12 product-title'>
-                                        <p className='all-text'>Deshi Gold Onion (1kg)</p>
+                                    <div className='col-12  '>
+                                        <button className=' add-butoon text-white'> See List</button>
                                     </div>
                                 </div>
-
-                                <div className='row'>
-                                    <div className='col-12 product-title'>
-                                        <p className='all-text'> 45tk</p>
-                                    </div>
-                                </div>
-                                <div className='row'>
-                                    <div className='col-12 product-title'>
-                                        <button className='add-butoon text-white'> add</button>
-                                    </div>
-                                </div>
-                                
                             </div>
                             <div className='col-3 '>
                                 <div className='row'>
                                     <div className='col-12'>
-                                        <img className='product-items' src={chili} />
+                                        <img className='product-items' src={Choclate} />
                                     </div>
                                 </div>
                                 <div className='row'>
-                                    <div className='col-12 product-title'>
-                                        <p className='all-text'>Deshi Red Chili (250gm)</p>
+                                    <div className='col-12  '>
+                                        <button className=' add-butoon text-white'> See List</button>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
 
-                                <div className='row'>
-                                    <div className='col-12 product-title'>
-                                        <p className='all-text'> 100tk</p>
-                                    </div>
-                                </div>
-                                <div className='row'>
-                                    <div className='col-12 product-title'>
-                                        <button className='add-butoon text-white'> add</button>
+                        <div className='row '>
+                            <div className='customer-review'>
+                                <div className='col-12'>
+                                    <div className='row'>
+                                        <div className='col-12 '>
+                                            <h2 className='all-text'>Customer Reviews</h2>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
