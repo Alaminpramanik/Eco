@@ -6,12 +6,15 @@ import addcart from "../images/cart.svg";
 import cash from "../images/cash.png";
 import dashboard from "../images/dashboard-layout.png"
 import logout from "../images/logout-rounded.png"
-
+import banner from "../images/banner.png"
+import chili from "../images/chili.png"
+import puishak from "../images/puishak.png"
+import onion from "../images/onion.jpg"
 
 function Header() {
     return (
         <>
-        <header className='header-top-strip py-3'>
+        {/* <header className='header-top-strip py-3'>
             <div className='container-xxl'>
                 <div className='row'>
                     <div className='col-6'>
@@ -27,7 +30,7 @@ function Header() {
                     </div>
                 </div>
             </div>
-        </header>
+        </header> */}
         <header className='header-upper py-3'>
             <div className='container-xxl'>
                 <div className='row align-items-center'>
@@ -35,8 +38,8 @@ function Header() {
                         
                         <div className='align-items-center justify-content-between'>
                             <Link className='text-black  '>
-                                <img className='logo' src={logo} />
-                                {/* <h2>Logo</h2> */}
+                                {/* <img className='logo' src={logo} /> */}
+                                <h1 className='all-text'>Logo</h1>
                             </Link>
                         </div>
                         
@@ -61,25 +64,25 @@ function Header() {
                             <div>
                                 <Link>
                                     <img src={addcart} />
-                                    <p className='text-black'>Add Cart</p>
+                                    <p className='all-text'>Add Cart</p>
                                 </Link>
                             </div>
                             <div>
                                 <Link>
                                     <img className='cash' src={cash} />
-                                    <p className='text-black'>Cash</p>
+                                    <p className='all-text'>Cash</p>
                                 </Link> 
                             </div>
                             <div>
                                 <Link>
                                     <img className='dashboard' src={dashboard} />
-                                    <p className='text-black'>Dashboard</p>
+                                    <p className='all-text'>Dashboard</p>
                                 </Link> 
                             </div>
                             <div>
                                 <Link>
                                     <img className='logout' src={logout} />
-                                    <p className='text-black'>Logout</p>
+                                    <p className='all-text'>Logout</p>
                                 </Link>
                             </div>
                         </div>
@@ -93,21 +96,31 @@ function Header() {
                     <div className='col-2'>
                         <div className='menu-bottom d-flex laign-items-center '>
                             <div>
-                                <p>Categories</p>
+                                <h2 className='categories all-text'>Categories</h2>
                             </div>
                             
                         </div>
                     </div>
                     <div className='col-10'>
-                        <div className='menu-bottom d-flex laign-items-center '>
-                            <div className='menu-links'>
-                                <div className='d-flex align-items-center gap-100'>
-                                    <NavLink className="text-black" to="/">Home</NavLink>
-                                    <NavLink className="text-black" to="/">Blog</NavLink>
-                                    <NavLink className="text-black" to="/">Agency</NavLink>
-                                    <NavLink className="text-black" to="/">Training</NavLink>
-                                    <NavLink className="text-black" to="/">About Us</NavLink>
-                                    <NavLink className="text-black" to="/">Contact Us</NavLink>
+                        <div className='row'>
+                            <div className='menu-bottom d-flex laign-items-center'> 
+                                <div className='col'>
+                                    <NavLink className="all-text" to="/">Home</NavLink>
+                                </div>
+                                <div className='col'>
+                                    <NavLink className="all-text" to="/">Blog</NavLink>
+                                </div>
+                                <div className='col'>
+                                    <NavLink className="all-text" to="/">Agency</NavLink>
+                                </div>
+                                <div className='col'>
+                                    <NavLink className="all-text" to="/">Training</NavLink>
+                                </div>
+                                <div className='col'>
+                                <NavLink className="all-text" to="/">About Us</NavLink>
+                                </div>
+                                <div className='col'>
+                                    <NavLink className="all-text" to="/">Contact Us</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -121,28 +134,58 @@ function Header() {
                 <div className='row'>
                     <div className='col-2 product-list border-end'>
                         <ul className='list'>
-                            <li className='list-group-item'>
-                                Vegetable and Fruits
+                            <li className='list-group-item '>
+                                <Link className="all-text">Vegetable and Fruits</Link>
                             </li>
                             <li className='list-group-item'>
-                                Meat and Fish
+                                <Link className="all-text"> Meat and Fish </Link>
                             </li>
                             <li className='list-group-item'>
-                                Cooking
+                                <Link className="all-text"> Cooking </Link>
                             </li>
                             <li className='list-group-item'>
-                                Dairy and Eggs
+                                <Link className="all-text"> Dairy and Eggs </Link>
                             </li>
                             <li className='list-group-item'>
-                                Bevarage
+                                <Link className="all-text"> Bevarage</Link>
                             </li>
                             <li className='list-group-item'>
-                                Choclate
+                                <Link className="all-text">Choclate </Link>
                             </li>
                         </ul>
                     </div>
                     <div className='col-10'>
-                        
+                        <div className='row'>
+                            <div className='col-12'>
+                                <img className='banner' src={banner} />
+                            </div>
+                        </div>
+                        <div className='row '>
+                            <div className='col-3'>
+                                <div>
+                                    <img className='product-items' src={chili} />
+                                </div>
+                                
+                            </div>
+                            <div className='col-3'>
+                                <div>
+                                    <img className='product-items' src={puishak} />
+                                </div>
+                                
+                            </div>
+                            <div className='col-3'>
+                                <div>
+                                    <img className='product-items' src={onion} />
+                                </div>
+                                
+                            </div>
+                            <div className='col-3'>
+                                <div>
+                                    <img className='product-items' src={chili} />
+                                </div>
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

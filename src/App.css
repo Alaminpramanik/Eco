@@ -65,10 +65,33 @@ a{
   height: 34px
 }
 .product-list{
-  margin-left: -32px;
+  margin-left: -40px;
   mix-blend-mode: normal;
  
 }
+.categories{
+  margin-left: -14px;
+}
+.all-text{
+  color: #1c682d;
+}
 .header-bottom{
   background-color: white;
+}
+.items{
+  background-color: transparent;
+  color: var(--color-131921);
+  margin: 8px;
+}
+
+.banner{
+  width: 100%;
+  height: 272px;
+}
+.product-items{
+  width: 100%;
+  height: 150px;
+  margin: 9px;
+  padding: 7px;
+  box-sizing: border-box;
 }
