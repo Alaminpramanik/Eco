@@ -1,19 +1,12 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
-import {BsSearch} from 'react-icons/bs'
-import Category from "../components/category"
-import banner from "../images/banner.png"
-import fishbeef from "../images/fishbeef.jpg"
-import Vegetable from "../images/vegetable.jpg"
-import drink from "../images/drink.jpeg"
-import Choclate from "../images/choclates.jpg"
-import background from "../images/apps.png"
-import gplaystore from "../images/playstore.png"
 
-function About() {
+import Category from "../components/category"
+import ProductList from "../components/Productlist"
+
+function Product() {
     return (
         <>
-            <header className='about py-3'>
+            <header className='product py-3'>
                 <div className='container-xxl'>
                     <div className='row'>
                         
@@ -22,7 +15,7 @@ function About() {
                         </div>
                         <div className='col-10'>
                                 
-                                  
+                             <ProductList/>     
                         </div>
                     </div>     
                      
@@ -32,4 +25,4 @@ function About() {
     );
 }
 
-export default About;
+export default Product;

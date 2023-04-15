@@ -1,16 +1,8 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import {BsSearch} from 'react-icons/bs'
-import logo from "../images/logos.png";
-import addcart from "../images/cart.svg";
-import cash from "../images/cash.png";
-import dashboard from "../images/dashboard-layout.png"
-import logout from "../images/logout-rounded.png"
+import Category from "../components/category"
 import banner from "../images/banner.png"
-import chili from "../images/chili.png"
-import puishak from "../images/puishak.png"
-import onion from "../images/onion.jpg"
-import potato from "../images/potato.webp"
 import fishbeef from "../images/fishbeef.jpg"
 import Vegetable from "../images/vegetable.jpg"
 import drink from "../images/drink.jpeg"
@@ -25,26 +17,7 @@ function Home() {
                 <div className='container-xxl'>
                     <div className='row'>
                         <div className='col-2 product-list border-end'>
-                            <ul className='list'>
-                                <li className='list-group-item '>
-                                    <Link className="all-text">Vegetable and Fruits</Link>
-                                </li>
-                                <li className='list-group-item'>
-                                    <Link className="all-text"> Meat and Fish </Link>
-                                </li>
-                                <li className='list-group-item'>
-                                    <Link className="all-text"> Cooking </Link>
-                                </li>
-                                <li className='list-group-item'>
-                                    <Link className="all-text"> Dairy and Eggs </Link>
-                                </li>
-                                <li className='list-group-item'>
-                                    <Link className="all-text"> Bevarage</Link>
-                                </li>
-                                <li className='list-group-item'>
-                                    <Link className="all-text">Choclate </Link>
-                                </li>
-                            </ul>
+                            <Category/>
                         </div>
                         <div className='col-10'>
                             <div className='row'>

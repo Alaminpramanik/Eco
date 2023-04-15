@@ -120,7 +120,7 @@ function Header() {
                                     <NavLink className="all-text" to="/">Agency</NavLink>
                                 </div>
                                 <div className='col'>
-                                    <NavLink className="all-text" to="/">Training</NavLink>
+                                    <NavLink className="all-text" to="/">Gellery</NavLink>
                                 </div>
                                 <div className='col'>
                                 <NavLink className="all-text" to="/">About Us</NavLink>
