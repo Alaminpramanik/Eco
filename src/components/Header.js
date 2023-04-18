@@ -87,8 +87,8 @@ function Header() {
                             </div>
                             <div>
                                 <Link>
-                                    <img className='logout' src={logout} />
-                                    <p className='all-text'>Logout</p>
+                                    {/* <img className='logout' src={logout} /> */}
+                                    <p className='all-text'>Login<br/> Signup</p>
                                 </Link>
                             </div>
                         </div>

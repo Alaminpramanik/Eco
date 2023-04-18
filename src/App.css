@@ -8,6 +8,7 @@
   --color-131921: #1c682d;
   --color-fafcfb: #fafcfb;
 }
+
 body{
   font-family: 'Rubik', sans-serif ;
 }
@@ -170,4 +171,26 @@ a{
   margin: 60px auto 20px;
   /* background-color: #67856e; */
 
+}
+
+.auth-inner {
+  display: block;
+    width: 400px;
+    height: 510px;
+    margin-top: calc((100vh - 645px)/2);
+    background: #fff;
+    box-shadow: var(--boxShadow);
+    border-radius: 0;
+    padding: 25px;
+}
+
+.auth-inner-center {
+  height: 100%;
+  transform: translateY(8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit-button{
+  text-align: center;
 }
